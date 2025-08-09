@@ -1,0 +1,2 @@
+/home/d_das/Desktop/Mobile App/Query/Query/android/app/.cxx/RelWithDebInfo/63516543/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/d_das/Desktop/Mobile App/Query/Query/android/app/.cxx/RelWithDebInfo/63516543/armeabi-v7a/CMakeFiles/rebuild_cache.dir
