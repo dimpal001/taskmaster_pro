@@ -9,47 +9,49 @@ It showcases clean architecture, state management, API integration, responsive U
 
 ### **Authentication**
 
-* Login with Email and Password
-* No backend – login succeeds only if:
+- Login with Email and Password
+- No backend – login succeeds only if:
 
   ```
   Email: test@test.com
   Password: 123456
   ```
-* Form validation included
+
+- Form validation included
 
 ### **Home Screen (Task List)**
 
-* Fetch tasks from [JSONPlaceholder](https://jsonplaceholder.typicode.com/todos)
-* Pull-to-refresh functionality
-* Tasks sorted with **Pending** on top and **Completed** below
-* Clean, responsive design
+- Fetch tasks from [JSONPlaceholder](https://jsonplaceholder.typicode.com/todos)
+- Pull-to-refresh functionality
+- Tasks sorted with **Pending** on top and **Completed** below
+- Clean, responsive design
 
 ### **Task Details**
 
-* Mark tasks as **Complete** / **Incomplete**
+- Mark tasks as **Complete** / **Incomplete**
 
 ### **Add New Task**
 
-* Form with: **Title**
-* Local save (SharedPreferences)
+- Form with: **Title**
+- Local save (SharedPreferences)
 
 ### **Dark Mode Support**
 
-* Toggle between **Light** and **Dark** themes
-* System theme detection
+- Toggle between **Light** and **Dark** themes
+- System theme detection
 
 ---
 
 ## Technical Details
 
-* **Flutter**: 3.5.4
-* **State Management**: **Provider**
+- **Flutter**: 3.5.4
+- **State Management**: **Provider**
 
-  * Chosen for its simplicity, readability, and ease of integration for small to medium apps.
-* **HTTP Client**: `http`
-* **Architecture**: Modular folder structure for separation of concerns
-* **Responsive UI**: Uses `flutter_screenutil`
+  - Chosen for its simplicity, readability, and ease of integration for small to medium apps.
+
+- **HTTP Client**: `http`
+- **Architecture**: Modular folder structure for separation of concerns
+- **Responsive UI**: Uses `flutter_screenutil`
 
 ---
 
@@ -75,3 +77,7 @@ It showcases clean architecture, state management, API integration, responsive U
    ```
 
 4. **For iOS** – If you face CocoaPods errors, see the [CocoaPods Fix Guide](#cocoapods-fix-guide) below.
+
+## 📽 Demo
+
+![App Demo](assets/video.gif)
